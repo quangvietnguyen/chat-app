@@ -110,12 +110,17 @@ button:disabled {
     flex-grow: 1;
     padding: 24px 24px 0 24px;
     overflow-y: scroll;
+    color: whitesmoke;
 }
 
 /* Message Styles */
 
 .message {
-    margin-bottom: 16px;   
+    margin-bottom: 16px;
+    background-color: grey;
+    width:fit-content;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .message__name {
@@ -125,7 +130,7 @@ button:disabled {
 }
 
 .message__meta {
-    color: #777;
+    color: whitesmoke;
     font-size: 14px;
 }
 
@@ -154,10 +159,12 @@ button:disabled {
     padding: 12px;
     margin: 0 16px 0 0;
     flex-grow: 1;
+    border-radius: 10px;
 }
 
 .compose button {
     font-size: 14px;
+    border-radius: 5px;
 }
 
 /* Chat Sidebar Styles */
